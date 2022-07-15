@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Jayhrn';
+    /* 字体名自定义即可 */
+    src: url('/fonts/ZhuZiAWan.woff2');
+    /* 字体文件路径 */
+    font-display: swap;
+}
+
+body,
+.gitcalendar {
+    font-family: Jayhrn !important;
+}
+
+/* 修改代码字体 */
+#article-container pre, #article-container code {
+    font-family: Jayhrn !important;
+    font-size: 15px !important;
+}
