@@ -206,7 +206,9 @@ $('#menu-refresh').on('click', function () {
     window.location.reload();
 });
 $('#menu-darkmode').on('click', function () {
-    switchDarkMode()
+    // switchDarkMode(),此函数不会激发切换日夜动画，因为是自己写的
+    // 需要调用themes/butterfly/source/js/custom/sun_moon.js来触发动画
+    switchNightMode()
 });
 $('#menu-home').on('click', function () {
     window.location.href = window.location.origin;
