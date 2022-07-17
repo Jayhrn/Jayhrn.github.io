@@ -3683,12 +3683,6 @@ h1.page-title + .tag-cloud-list {
 }
 #nav .menus_items {
   display: inline;
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  left: 0;
-  right: 0;
-  margin: auto;
 }
 #nav .menus_items .menus_item {
   position: relative;
