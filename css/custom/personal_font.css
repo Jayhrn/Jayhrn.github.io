@@ -1,18 +1,1 @@
-@font-face {
-    font-family: 'Jayhrn';
-    /* 字体名自定义即可 */
-    src: url('/fonts/ZhuZiAWan.woff2');
-    /* 字体文件路径 */
-    font-display: swap;
-}
-
-body,
-.gitcalendar {
-    font-family: Jayhrn !important;
-}
-
-/* 修改代码字体 */
-#article-container pre, #article-container code {
-    font-family: Jayhrn !important;
-    font-size: 15px !important;
-}
+@font-face{font-family:Jayhrn;src:url(https://cdn.jsdelivr.net/gh/Jayhrn/CDN@86c6abf542845a01ad7e561dd58085188d9155d3/ZhuZiAWan.woff2);font-display:swap}.gitcalendar,body{font-family:Jayhrn!important}#article-container code,#article-container pre{font-family:Jayhrn!important;font-size:15px!important}
